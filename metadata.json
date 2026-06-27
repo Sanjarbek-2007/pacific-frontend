@@ -1,0 +1,11 @@
+{
+  "name": "Pacific",
+  "description": "Pacific — AI life navigator for high-stakes decisions in Central Asia. Scholarships, visas, work, legal, and financial guidance that navigates the path ahead.",
+  "requestFramePermissions": [
+    "microphone",
+    "geolocation"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
