@@ -7,7 +7,7 @@ import dotenv from "dotenv";
 dotenv.config();
 
 const app = express();
-const PORT = 3000;
+const PORT = parseInt(process.env.PORT || "3000", 10);
 const BACKEND_URL = process.env.BACKEND_URL || "http://localhost:8080";
 
 app.use(express.json({ limit: "12mb" }));
